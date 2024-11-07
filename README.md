@@ -1,4 +1,4 @@
-# TrellosT
+# TrellosT (Trello + osTicket plugin)
 osTicket + Trello integration plugin for easier ticket management. Tested with osTicket v1.18.1.
 Inspired by [Slack](https://github.com/clonemeagain/osticket-slack) plugin, and other [Trello](https://github.com/jatacid/trello-simple) [plugins](https://github.com/kyleladd/OSTicket-Trello-Plugin).
 
