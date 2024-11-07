@@ -12,10 +12,10 @@ Inspired by [Slack](https://github.com/clonemeagain/osticket-slack) plugin, and 
 
 ## Install
 1. Head to https://trello.com/power-ups/admin and create a new power-up;
-2. In your power-up > API Keys > Copy your API key and save it somewhere. Then click on "manually generate a token", authorize it and save your token somewhere;
-3. On your Trello board, open your brower dev. tools and search for your list ID. It should look like `data-list-id="x97zaer456trez45r1z5r6e1"`. Save it somewhere too; 
+2. In your power-up > API Keys > Copy your API key and save it somewhere.<br>Then click on "manually generate a token", authorize it and save your token somewhere;
+3. On your Trello board, open your brower dev. tools and search for your list ID.<br>It should look like `data-list-id="x97zaer456trez45r1z5r6e1"`. Save it somewhere too; 
 4. Clone this repo and move the `TrellosT-Plugin` folder inside your osTicket plugin folder : `/osticket/include/plugins/`;
-5. You need to create a custom field in your osTicket forms (`/scp/forms.php`) and give it a variable name (`cardId` for example). Variable name must be consistent across all forms and field visibility must be set to 'Internal, Optional';
+5. You need to create a custom field in your osTicket forms (`/scp/forms.php`) and give it a variable name (`cardId` for example).<br>Variable name must be consistent across all forms and field visibility must be set to 'Internal, Optional';
 6. Go to your osTicket instance `/scp/plugins.php` and click on "Add a new plugin" > "Install";
 7. Create a new instance of the plugin and fill the form with the previous info;
 8. Enable the plugin instance and the plugin globally.
